@@ -106,6 +106,19 @@ def ex_16(a, b, c):
     else:
         raiz_1 = (-b + np.sqrt(delta))/(2 * a)
         raiz_2 = (-b - np.sqrt(delta))/(2 * a)
-        # raiz_1 = (((b)*-1) + np.sqrt(delta))/2 * a
-        # raiz_2 = (((b)*-1) - np.sqrt(delta))/2 * a
         return round(raiz_1, 4), round(raiz_2, 4)
+
+# Exercicio XVI
+# Vamos agora estudar as estruturas de repetição
+# While
+# for
+# Imprimir os 5 primeiros números positivos
+
+def ex_17_gerarinteiros(qtd):
+    i = 1
+    while(i<=qtd):
+        print(i)
+        i += 1
+
+
+ 
